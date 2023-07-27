@@ -1,0 +1,69 @@
+// global styles
+$primary-color: #FFFFFF;
+
+@import 'animate.css';
+
+@font-face{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/OpenSans-Light.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('./assets/fonts/OpenSans-LightItalic.ttf') format('ttf');
+}
+
+@font-face{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+
+@font-face{
+    font-family: 'Cyber';
+    src: url('./assets/fonts/Cyber.ttf') format('ttf');
+}
+
+// default font for input text
+input,
+textarea{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overscroll-behavior: none;
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+    margin-block: 1em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 50%);
+  filter: opacity(8%);
+  border-radius: 100vw;
+}
+
+
+
+
+
