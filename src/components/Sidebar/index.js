@@ -67,11 +67,11 @@ const Items = styled.div`
 `
 
 const NavItem = styled.li`
-    color: #fff;
-    font-family: "Cyber";
     margin-bottom: 2.5rem;
     font-size: 30px;
     margin-left: -5.5rem;
+    font-family: "Cyber";
+    color: #fff;
 `
 
 const NavLinks = styled(LinkS)`
@@ -81,6 +81,7 @@ const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    
     
     &.active {
         color: #B96161;
